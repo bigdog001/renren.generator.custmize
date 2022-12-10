@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.xx.com:3306/yy?useUnicode=true&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true&autoReconnect=true&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: xxxxxxxx
+    password: yyyyyyy
+
